@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.wrapper {
+  padding: 20px;
+  background-color: #121417;
+  width: 90%;
+  max-width: 337.5px;
+  height: 360px;
+  border-radius: 1rem;
+}
+
+.logo img {
+  background-color: #252d37;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.submit-container h2 {
+  padding: 10px 0;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.submit-container p {
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #959eac;
+}
+
+.submit-container .buttons {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-container .buttons .ratings {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-container .buttons .ratings button {
+  border: none;
+  width: 45px;
+  height: 45px;
+  font-weight: 700;
+  border-radius: 50%;
+  background-color: #252d37;
+  color: #7c8798;
+}
+
+.submit-container .buttons .ratings button:hover {
+  cursor: pointer;
+  background-color: #959eac;
+}
+
+.submit-container .buttons .ratings button:active {
+  background-color: #fb7413;
+  color: #ffffff;
+}
+
+.submit-container .buttons .ratings button:focus {
+  background-color: #fb7413;
+  color: #ffffff;
+}
+
+.submit-container .buttons .ratings .active {
+  background-color: #fb7413;
+  color: #ffffff;
+}
+
+.buttons .submit {
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: #fb7413;
+}
+
+.submit-container .buttons .submit:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #fb7413;
+}
+
+.ty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.ty-container span {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 3rem;
+  background-color: #252d37;
+  color: #fb7413;
+}
+
+.ty-container h2 {
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.ty-container p {
+  color: #959eac;
+}
